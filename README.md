@@ -4,7 +4,7 @@
 
 A minimalist, aesthetic ambient sound mixer inspired by lofi anime study stations. Designed for deep work, study sessions, and restful sleep with real acoustic loops, sleep timers, mindfulness tools, and intelligent mood presets.
 
-### 🔗 [Live Demo](https://your-app.onrender.com](https://ambient-studio-byi9.onrender.com/) <!-- Replace with your live Render URL -->
+### 🔗 [Live Demo](https://ambient-studio-byi9.onrender.com/) <!-- Replace with your live Render URL -->
 
 <br />
 
