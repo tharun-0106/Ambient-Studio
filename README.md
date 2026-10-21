@@ -4,6 +4,10 @@
 
 A minimalist, aesthetic ambient sound mixer inspired by lofi anime study stations. Designed for deep work, study sessions, and restful sleep with real acoustic loops, sleep timers, mindfulness tools, and intelligent mood presets.
 
+### 🔗 [Live Demo](https://your-app.onrender.com) <!-- Replace with your live Render URL -->
+
+<br />
+
 ![Ambient Studio Preview](preview.png)
 
 </div>
@@ -22,7 +26,7 @@ A minimalist, aesthetic ambient sound mixer inspired by lofi anime study station
 
 ### 🔊 Audio Architecture
 * **High-Fidelity Loops**: Real, seamless `.mp3` audio files included in `/sounds/`.
-* **Procedural Synthesis Fallback**: Built-in **Web Audio API** engine generates realistic acoustic noise buffers and harmonic oscillators, ensuring the app works offline or anywhere without network delays.
+* **Procedural Synthesis Fallback**: Built-in **Web Audio API** engine generates realistic acoustic noise buffers and harmonic oscillators, ensuring the app works offline without network dependencies.
 * **Natural Volume Drift**: Subtle volume fluctuation simulating realistic wind gusts and rain intensity.
 * **Volume Persistence**: Remembers your preferred slider levels automatically in `localStorage`.
 
@@ -83,34 +87,13 @@ The optimized production build will be generated in `./dist`.
 
 ---
 
-## 🌐 Deploy to Render (Static Site)
-
-This project is optimized as a zero-cost **Static Site** on [Render](https://render.com/).
-
-### Deployment Steps:
-1. Push your repository to **GitHub**.
-2. Go to your [Render Dashboard](https://dashboard.render.com/) and click **New +** $\rightarrow$ **Static Site**.
-3. Connect your GitHub repository.
-4. Configure the build settings:
-   * **Name**: `ambient-studio`
-   * **Branch**: `main`
-   * **Build Command**: `npm install && npm run build`
-   * **Publish Directory**: `dist`
-5. Under **Redirects / Rewrites**, add a rewrite rule for Single-Page App routing:
-   * **Source**: `/*`
-   * **Destination**: `/index.html`
-   * **Action**: `Rewrite`
-6. Click **Create Static Site**. Your site will be live on a secure `https://*.onrender.com` URL within 1 minute!
-
----
-
 ## 🛠️ Tech Stack
 
 * **Framework**: [React 18](https://react.dev/) + [Vite](https://vitejs.dev/)
 * **Audio Engine**: Web Audio API + HTML5 Audio Elements
 * **Icons**: [Lucide React](https://lucide.dev/)
 * **Typography**: Google Fonts (*Special Elite*)
-* **Deployment**: Render / Vercel Static Site
+* **Styling**: Modern CSS Glassmorphism + Flexbox / Grid
 
 ---
 
